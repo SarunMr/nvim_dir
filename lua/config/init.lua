@@ -14,7 +14,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   end
 end
 vim.opt.rtp:prepend(lazypath)
-require('config.keymaps')
 require('config.globals')
 require('config.options')
 local opts ={
