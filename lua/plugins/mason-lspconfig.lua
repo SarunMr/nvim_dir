@@ -2,8 +2,6 @@ local opts = {
   ensure_installed ={
     "efm",
     "lua_ls",
-    "java",
-    "python",
   },
   automatic_installation = true,
 }
